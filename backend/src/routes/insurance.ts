@@ -11,7 +11,7 @@ const router = express.Router()
 
 router.post('/', async (req, res) => {
 
-    const { name, age, city, power, voucher, priceMatch, activeCoverageIds, activeDiscountIds } = req.body
+    const { age, city, power, voucher, activeCoverageIds, activeDiscountIds } = req.body
 
     // Fetch ageBase from the database
     const ageBase = await AgeModel.findOne({

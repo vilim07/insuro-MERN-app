@@ -51,7 +51,14 @@ const Receipt = () => {
                 }
 
             </div>
-            <div className="flex justify-between mt-16 text-3xl font-semibold deco-underline pb-2">
+            {state.bill.price.voucher && 
+                        <div className="flex justify-between mt-8 text-xl font-semibold deco-underline pb-2">
+                        <span>Voucher:</span>
+                        <span>-{state.bill.price.voucher}</span>
+                    </div>
+            }
+
+            <div className="flex justify-between text-3xl font-semibold pb-2">
                 <span>Total:</span>
                 <span>{state.bill.price.total}</span>
             </div>

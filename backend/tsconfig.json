@@ -9,6 +9,6 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "skipLibCheck": true,
-    //"noUnusedLocals": true
+    "noUnusedLocals": true
   }
 }

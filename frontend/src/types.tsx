@@ -14,6 +14,7 @@ export type DataContextState = {
     bill: {
         price: {
             base: number;
+            voucher: number | null;	
             total: number;
         },
         coverages: { title: string, value: number }[],

@@ -10,25 +10,25 @@ import DiscountsModel from "../models/discounts";
 
 const seedCities = async () => {
     citiesData.forEach(async (data) => {
-        const city = await CityModel.create(data);
+        await CityModel.create(data);
     });
 }
 
 const seedAge = async () => {
     ageData.forEach(async (data) => {
-        const age = await AgeModel.create(data);
+        AgeModel.create(data);
     });
 }
 
 const seedCoverage = async () => {
     coverageData.forEach(async (data) => {
-        const coverage = await CoverageModel.create(data);
+        await CoverageModel.create(data);
     });
 }
 
 const seedDiscounts = async () => {
     discountsData.forEach(async (data) => {
-        const discount = await DiscountsModel.create(data);
+        await DiscountsModel.create(data);
     });
 }
 

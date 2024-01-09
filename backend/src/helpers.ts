@@ -81,6 +81,7 @@ export const calculatePrice = (base: number, cityMulti: number, power: number, v
     return {
         price: {
             base: (basePrice).toFixed(2),
+            voucher: (voucher).toFixed(2),
             total: totalPrice
         },
         coverages: coverageList,
