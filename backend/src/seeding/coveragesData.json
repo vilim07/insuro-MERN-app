@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Bonus Protection",
+        "type": "base",
+        "variations": [
+            {
+                "value": 12
+            }
+        ]
+    },
+    {
+        "title": "AO+",
+        "condition": "age",
+        "type": "fixed",
+        "variations": [
+            {
+                "threshold": -30,
+                "value": 55
+            },
+            {
+                "threshold": 30,
+                "value": 105
+            }
+        ]
+
+    },
+    {
+        "title": "Glass Protection",
+        "type": "power",
+        "variations": [
+            {
+                "value": 80
+            }
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "zagreb",
+        "value": 12
+    },
+    {
+        "name": "split",
+        "value": 14
+    },
+    {
+        "name": "rijeka",
+        "value": 11
+    },
+    {
+        "name": "osijek",
+        "value": 13
+    },
+    {
+        "name": "zadar",
+        "value": 10
+    },
+    {
+        "name": "sisak",
+        "value": 9
+    },
+    {
+        "name": "slavonski brod",
+        "value": 12
+    }
+]

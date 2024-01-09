@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Commercial discount",
+        "value": -10,
+        "type": "base"
+    },
+    {
+        "title": "Adviser discount",
+        "value": -20,
+        "type": "coverage",
+        "condition": "coverage",
+        "treshold": 2
+    },
+    {
+        "title": "VIP discount",
+        "value": -5,
+        "type": "total",
+        "condition": "power",
+        "treshold": 80
+    },
+    {
+        "title": "Strong car surcharge",
+        "value": 10,
+        "type": "total",
+        "condition": "power",
+        "treshold": 100,
+        "optional": false
+    }
+]
