@@ -60,7 +60,7 @@ const Receipt = () => {
 
             <div className="flex justify-between text-3xl font-semibold pb-2">
                 <span>Total:</span>
-                <span>{state.bill.price.total}</span>
+                <span>{state.bill.price.total} EUR</span>
             </div>
 
         </div>
